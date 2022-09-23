@@ -1,0 +1,15 @@
+.Dictionary {
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 500;
+  line-height: 1.6em;
+  margin: 40px 0;
+  text-align: center;
+}
+
+.Results {
+  margin-top: 23px;
+}
+
+.footer {
+  font-style: italic;
+}
