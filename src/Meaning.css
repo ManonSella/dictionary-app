@@ -1,0 +1,17 @@
+.Meaning .definition {
+  color: blueviolet;
+}
+
+.Meaning h3 {
+  font-size: 22px;
+  line-height: 1.5;
+  font-weight: 800;
+}
+
+.Meaning .example {
+  color: crimson;
+  font-size: 16px;
+  font-style: italic;
+  margin-top: 12px;
+  opacity: 0.7;
+}
