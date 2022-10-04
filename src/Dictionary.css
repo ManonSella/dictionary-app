@@ -4,11 +4,15 @@
   margin-bottom: 18px;
 }
 
+.hint {
+  color: #3b50b2;
+}
+
 .Dictionary section {
   background: #fff;
   border-radius: 8px;
   box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.2);
-  font-family: "Courier New", Courier, monospace;
+  font-family: Georgia, "Times New Roman", Times, serif;
   font-weight: 500;
   line-height: 1.6em;
   margin: 25px 0;

@@ -1,5 +1,5 @@
 .Meaning .definition {
-  color: blueviolet;
+  color: #3b50b2;
 }
 
 .Meaning h3 {
@@ -9,9 +9,9 @@
 }
 
 .Meaning .example {
-  color: crimson;
+  color: #32786c;
   font-size: 16px;
   font-style: italic;
   margin-top: 12px;
-  opacity: 0.7;
+  opacity: 0.9;
 }

@@ -1,6 +1,5 @@
 .Phonetic {
-  height: 50px;
-  margin: 20px auto;
+  margin: 0 auto;
 }
 .Phonetic a {
   border: 1px solid #5e87b8;
@@ -18,7 +17,13 @@
   color: white;
 }
 
-.Phonetic .text {
+.audio-player {
+  display: block;
+  margin: 0 auto 20px;
+}
+
+.text {
   font-weight: bold;
+  text-align: center;
   opacity: 0.6;
 }

@@ -10,9 +10,13 @@ export default function App() {
         </main>
         <footer className="App-footer">
           <small>
-            Coded by {""}
+            This open-sourced project was coded by {""}
             <a href="https://github.com/ManonSella/dictionary-app">
               Manon Sella
+            </a>{" "}
+            and is hosted on {""}
+            <a href="https://flourishing-croquembouche-b3d178.netlify.app/">
+              Netlify
             </a>
           </small>
         </footer>
