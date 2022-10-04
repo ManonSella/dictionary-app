@@ -14,10 +14,7 @@ export default function App() {
             <a href="https://github.com/ManonSella/dictionary-app">
               Manon Sella
             </a>{" "}
-            and is hosted on {""}
-            <a href="https://flourishing-croquembouche-b3d178.netlify.app/">
-              Netlify
-            </a>
+            and is hosted on Netlify
           </small>
         </footer>
       </div>
