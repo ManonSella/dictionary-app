@@ -37,7 +37,7 @@ To get started with this project, you will need to have Node.js and npm (Node Pa
 
 1. Clone or download this repository.
 
-2. Open the project in your preferred code editor.
+2. Open the project in your code editor.
 
 3. Run npm install to install the project dependencies.
 
