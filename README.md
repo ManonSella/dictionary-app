@@ -1,70 +1,50 @@
-# Getting Started with Create React App
+# Dictionary Web App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a monolingual dictionary web app built using React, HTML, CSS, and Bootstrap. The app retrieves data from an API to provide definitions, synonyms, and audio pronunciations for searched words.
 
-## Available Scripts
+## Preview
 
-In the project directory, you can run:
+![Screenshot 2024-07-26 at 16 11 51](https://github.com/user-attachments/assets/fceb4808-b09d-4ceb-b93a-41a727c73e3c)
 
-### `npm start`
+## Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Phonetic Audio: The app includes an audio element for the phonetic reading of the researched word.
+  It provides a maximum of two readings: British English and American English.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Definitions: The app displays a maximum of three different definitions for one searched word.
 
-### `npm test`
+- Synonyms: a maximum of five synonyms per searched word are given.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Word Categories: The app fetches two word categories: noun and verb.
 
-### `npm run build`
+## Technologies Used
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- React
+  
+- Axios Library
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- HTML
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- CSS and Bootstrap
 
-### `npm run eject`
+- API: https://api.shecodes.io/dictionary/v1/define?word={word}&key={key}
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- Hosted on Netlify
+  
+## Getting Started
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+To get started with this project, you will need to have Node.js and npm (Node Package Manager) installed on your machine. Follow these steps:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+1. Clone or download this repository.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+2. Open the project in your preferred code editor.
 
-## Learn More
+3. Run npm install to install the project dependencies.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+4. Run npm start to start the development server.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+5. Open your web browser and visit http://localhost:3000 to see the app in action.
 
-### Code Splitting
+## Acknowledgements
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Special thanks to SheCodes for providing the dictionary API used in this project.
